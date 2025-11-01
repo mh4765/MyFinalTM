@@ -75,14 +75,14 @@ body {
 .btn-primary {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #007BFF;
+  background-color: #848C48;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #656F65;
 }
 
 /* Main content */
