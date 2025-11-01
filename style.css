@@ -1,0 +1,94 @@
+* {
+    background-image: url(/Assets/Images/67269.jpg);
+    /*background-color: #D3FFE9;*/
+
+}
+
+#flex {
+    border: solid 2px black;
+    display: flex
+}
+
+#flex div {
+    background-color: pink;
+    padding: 20px;
+    width: 150px;
+    margin: auto;
+
+}
+
+h1 {
+    color: rgb(216, 28, 122);
+    font-family: cursive;
+    font-weight: 800;
+}
+
+h2 {
+    color: blue;
+    font-family: fantasy;
+}
+
+.world {
+    color: purple;
+    font-size: x-large;
+    font-style: italic;
+
+    text-align: center;
+}
+
+#video {
+    border: 5px solid #9BC4BC;
+    padding: 20px;
+    border-radius: 25px;
+
+    text-align: center;
+}
+
+#weird {
+    border-style: dotted;
+    padding: 10px;
+    border-radius: 16px;
+    background-image: url(/Assets/Images/67269.jpg);
+
+}
+
+#image {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border: red 4px solid;
+
+    text-align: center;
+    box-shadow: 10px 10px #8694a3;
+}
+
+table {
+    border: 5px hotpink solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 60px;
+    color: hotpink;
+}
+
+th {
+    border: hotpink solid 2px;
+    font: 700 orange 16px;
+    padding: 10px;
+}
+
+tr {
+    background-color: beige;
+    border: hotpink 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+td {
+    border: hotpink solid 2px;
+    padding: 10px;
+}
