@@ -2,92 +2,108 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mindi Hamilton – Home</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mindi Hamilton — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="brand">Mindi Hamilton</div>
 
-    <header class="site-header">
-        <div class="container">
-            <h1 class="site-title">Mindi Hamilton</h1>
-            <nav class="site-nav">
-                <ul>
-                    <li><a href="#">Patent</a></li>
-                    <li><a href="#">Process</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <!-- Mobile nav toggle (CSS only) -->
+            <input type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />
+            <label for="nav-toggle" class="hamburger" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="patent.html">Patent</a>
+                <a href="process.html">Process</a>
+                <a href="case-studies.html">Case Studies</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About</a>
+                <!-- <a href="contact.html">Contact</a>-->
             </nav>
-        </div>
-    </header>
+        </header>
+        <div class="rule rule-top"></div>
 
-    <section class="hero">
-        <div class="container">
-            <h2>UX Design / Research / Strategist</h2>
-            <h3>Crafting Meaningful Digital Experiences</h3>
-            <p>Welcome! I'm a UX designer passionate about creating intuitive, user-centered solutions
-                that bridge the gap between business goals and user needs. Through rigorous research, thoughtful design,
-                and iterative refinement, I transform complex challenges into elegant, accessible experiences.</p>
-            <a href="#" class="btn-primary">Learn More</a>
-        </div>
-    </section>
+        <!-- Hero -->
+        <section class="hero">
+            <!-- Background image as an absolutely-positioned <img> -->
+            <img class="hero-photo" src="Assets/pexels-pixabay-247378.jpg" alt="" aria-hidden="true" />
 
-    <main class="container">
-        <section class="intro">
-            <h3>About Me</h3>
-            <p>Hi — I’m Mindi Hamilton. I specialize in [your specialty here]. Let’s connect and grow together.</p>
+            <aside class="hero-left">
+                <p>UX Designer</p>
+                <p>Researcher</p>
+                <p>Strategist</p>
+            </aside>
+
+            <div class="divider" aria-hidden="true"></div>
+
+            <main class="hero-main">
+                <h1>Crafting Meaningful Digital Experiences</h1>
+                <p class="intro-copy">
+                    Welcome to my portfolio. I'm a UX designer passionate about creating
+                    intuitive, user-centered solutions that bridge the gap between
+                    business goals and user needs. Through rigorous research, thoughtful
+                    design, and iterative refinement, I transform complex challenges into
+                    elegant, accessible experiences.
+                </p>
+            </main>
         </section>
 
-        <section class="services">
-            <h3>Professional Experience</h3>
-            <div class="service-list">
-                <div class="service-item">
-                    <h4>Case Studies</h4>
-                    <p>Go behind the design to see the full story</p>
-                </div>
-                <div class="service-item">
-                    <h4>Process</h4>
-                    <p>How I design start to finish — dive into my workflow</p>
-                </div>
-                <div class="service-item">
-                    <h4>Project Gallery</h4>
-                    <p>My B2B, B2C, B2G, and SaaS Journey</p>
-                </div>
+        <!-- Panels -->
+        <section class="panels">
+            <div class="panel">
+                <h2>Case Studies</h2>
+                <p class="panel-copy">
+                    Go behind the design and<br />
+                    see the full story
+                </p>
+                <a class="panel-link" href="case-studies.html">Learn More</a>
+            </div>
+
+            <div class="panel">
+                <h2>Process</h2>
+                <p class="panel-copy">
+                    How I design start to finish,<br />
+                    dive into my workflow
+                </p>
+                <a class="panel-link" href="process.html">Learn More</a>
+            </div>
+
+            <div class="panel">
+                <h2>Project Gallery</h2>
+                <p class="panel-copy">
+                    My B2B, B2C, B2G, and<br />
+                    SaaS Journey
+                </p>
+                <a class="panel-link" href="gallery.html">Learn More</a>
             </div>
         </section>
 
-        <section class="blog-preview">
-            <h3>Latest from the Blog</h3>
-            <article class="blog-post">
-                <h4><a href="#">Post Title One</a></h4>
-                <p>Brief snippet of the post content that entices the reader to click through.</p>
-                <a href="#" class="read-more">Read More →</a>
-            </article>
-            <article class="blog-post">
-                <h4><a href="#">Post Title Two</a></h4>
-                <p>Another snippet of blog content here.</p>
-                <a href="#" class="read-more">Read More →</a>
-            </article>
-        </section>
-    </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="cta">I welcome new opportunities and would love to chat.</p>
+            <p class="email">
+                <a href="mailto:mindikhamilton@hotmail.com">mindikhamilton@hotmail.com</a>
+            </p>
 
-    <footer class="site-footer">
-        <div class="container">
-            <p>© 2025 Mindi Hamilton. All rights reserved.</p>
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
-
+            <a class="linkedin" href="https://www.linkedin.com/in/mindi-hamilton/" target="_blank" rel="noopener">
+                <img class="linked-photo" src="Assets/InBug-Filled.png" alt="" viewBox="0 0 24 24" aria-hidden="true" />
+                <!--> <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                    <path
+                        d="M7.2 9.5h2.1V17H7.2zM8.2 7.8a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4zM11.6 9.5h2v1.1c.3-.7 1.1-1.3 2.2-1.3 2.2 0 2.7 1.4 2.7 3.3V17h-2.1v-3.6c0-.9-.1-2-1.3-2s-1.5 1-1.5 2V17h-2.1z" />
+                </svg> -->
+            </a>
+        </footer>
+    </div>
 </body>
 
 </html>
