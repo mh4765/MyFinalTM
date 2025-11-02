@@ -218,7 +218,7 @@ body {
   text-align: center;
 
   /* Height & padding */
-  min-height: clamp(100px, 54vh, 280px);
+  min-height: clamp(360px, 54vh, 280px);
   padding: clamp(40px, 6vw, 96px) clamp(20px, 6vw, 60px);
 
   /* Keep content above background image */
@@ -301,7 +301,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  padding: 36px clamp(16px, 6vw, 80px);
+  padding: 120px clamp(16px, 6vw, 80px);
   border-top: 6px solid #c7c0ab;
   border-bottom: 6px solid #c7c0ab;
 }
@@ -342,11 +342,12 @@ body {
 
 /* ---------- Footer ---------- */
 .footer {
-  margin-top: auto;
+  margin-top: 0;
+  margin-bottom: 0;
   background: var(--accent);
   color: #fff;
   text-align: center;
-  padding: 40px clamp(16px, 6vw, 20px) 54px;
+  padding: 70px clamp(16px, 6vw, 20px) 100px;
 }
 
 .cta {
